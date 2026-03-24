@@ -87,3 +87,45 @@ footer { background: #050505; padding: 50px 0 20px; margin-top: 50px; border-top
     .hero h1 { font-size: 2rem; }
     .nav-links { display: none; } /* Biasanya diganti burger menu */
 }
+/* Update Card Styling */
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.cat-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--primary);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.news-meta {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.news-meta small {
+    color: var(--text-dim);
+    font-size: 0.75rem;
+}
+
+/* Hover Effect pada Judul */
+.news-content h3 {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.news-content h3:hover {
+    color: var(--primary);
+}
